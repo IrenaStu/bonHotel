@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.conteiner{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+.logo{ 
+    width: 151px ;
+    height:101px ;
+}
+
+.navigation a{
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #957554;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+    
+}
+.navigation a:hover{
+    color: black;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+}
+.firstsection{
+    background-image: url(./assets/backgraund\ 1.png);
+    max-width: 1440px;
+    max-width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.first-section-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+.main-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700px;
+    font-size: 80px;
+    line-height: 92px;
+    max-width: 1010px;
+    color:#FFFFFF;
+}
+.description, .button, .footer-nav-link, 
+.footer-text a, .footer-text p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.button{
+    background-color: #DFAA5B;
+    padding: 25px 133px;
+    border-radius: 10px;
+    border-color: #000000;
+}
+.button1:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+    
+}
+.second-title{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #957554;
+    margin-bottom: 47px;
+    padding-bottom: 19px;
+}
+.rooms-cards{
+    max-width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.rooms-cards > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttons{  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 24px 52px;
+    border-radius: 10px;
+    background-color: #DFAA5B; 
+    border-color: #000000;  
+    display: block;
+    padding-top: 19px;
+}
+
+.absolute-ellement{ 
+    position: absolute;
+    
+    
+}
+.first-ellement {
+    width: 381px;
+    height: 46px;
+    
+
+}
+.second-ellement .buttons{
+    width: 244px;
+    height: 76px;
+   
+}
+
+ .card-title, .card-title2, .card-title3, .card-title4,
+  .card-title-2{
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.second-ellement{
+   top: 367px;
+   left: 196px;
+   right:191px;
+   bottom: 57px;
+
+}
+
+.second-ellement:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.first-ellement{
+    top:302px ;
+    left:126px ;
+    right:123px ;
+    bottom:152px ;
+}
+.rooms-gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin: 0 60px 59px 60px;
+}
+
+.rooms-gallery-2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin: 0 60px 55px 60px;
+}
+
+.first-ellement2{
+    width: 286px;
+    height: 46px;
+    top: 302px;
+    left: 171px;
+    right: 173px;
+    bottom: 152;
+}
+
+.first-ellement3{
+    width: 388px;
+    height: 46px;
+    top: 287px;
+    left: 121px;
+    right: 122px;
+    bottom: 167px;
+}
+
+.first-ellement4{
+    width: 248px;
+    height:46px;
+    top: 287px;
+    left: 195px;
+    right: auto;
+    bottom: 167px;
+}
+
+.third-title{
+    font-family: Ubuntu, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #957554;
+    max-width: 411px;
+    height: 52px;
+}
+
+
+.lastsection{
+    max-width: 1440px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+    margin-bottom: 122px;
+}
+
+.booking-button{
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px; 
+    color: #FFFFFF;
+    background-color: #DFAA5B;
+    padding: 24px 147px 24px 157px;
+    border-radius: 10px;
+    border-color: #000000;
+}
+.booking{
+    max-width: 418px;
+    height: 76px;
+    width: 100%;
+}
+
+ .booking:hover{
+    text-decoration: underline;
+    color: palevioletred;
+    
+}
+
+footer{
+    background-color: #111111;
+    padding: 51px 123px  159px 55px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.footer-nav-link{
+    font-weight: 400px;
+}
+.footer-nav:hover, .footer-text:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.footer-text a {
+    display: block;
+    font-weight: 300;
+}
+.footer-content img{
+    width: 154px;
+    height: 126px;
+}
+
+.button2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 24px 52px 24px 56px;
+    border-radius: 10px;
+    background-color: #DFAA5B; 
+    border-color: #000000;  
+}
+.news-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    grid-template-rows: 500px;
+    margin-bottom: 50px;
+}
+.news-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.news-card-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 44px;
+}
+.news-card-con h3{
+ color: #DFAA5B;
+}
+.news-card-con p{
+    color: #000000;
+}
+.news-card:nth-child(2n) img{
+order: 1;
+}
+
+.news-card:nth-child(2n) .news-card-con{
+    align-items: end;
+}
+
+.news-card:nth-child(2n) .news-card-con p{
+    text-align: right;
+}
+
+.news-card:last-child{
+    margin-bottom: 107px;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows:repeat(2, 500px);
+    gap: 30px;
+    margin-bottom: 104px;
+}
+.gallery-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.gallery-grid img:first-child{
+    grid-area: 1/1/2/4;
+}
+.gallery-grid img:nth-child(2n){
+ grid-area: 1/4/2/6;
+}
+.gallery-grid img:nth-child(3n){
+   grid-area: 2/1/3/3;
+}
+.gallery-grid img:last-child{
+grid-area:2/3/3/6;
+}
+.gallery-grid img:hover{
+    transform: scale(1.5);
+}
