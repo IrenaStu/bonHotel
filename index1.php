@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+    <?php 
+
+    ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +36,7 @@
     <section class="firstsection">
         <div class="first-section-con">
         <h1 class="main-title">
-            WELCOME TO BON HOTEL
+           <?php  echo "WELCOME TO BON HOTEL"; ?>
         </h1>
         <p class="description">
             Good people. Good thinking. Good feeling.
@@ -53,22 +59,22 @@
                     <img src="./assets/card1.png" alt="card1">
                     <div class="absolute-ellement first-ellement">
                        <h3 class="card-title">
-                        Standard Twin Room
+                        Standard Twin 
                          </h3> 
                     </div>
                     <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                     </div>
                 </div>
                 <div class="rooms-cards">
                     <img src="./assets/card2.png" alt="card2">
                     <div class="absolute-ellement first-ellement2">
                        <h3 class="card-title2">
-                        Standard Room
+                        Standard  
                          </h3> 
                     </div>
                  <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                  </div>
                 </div>
              </div>
@@ -77,22 +83,21 @@
                     <img src="./assets/card3.png" alt="card3">
                     <div class="absolute-ellement first-ellement3">
                        <h3 class="card-title3">
-                        Standard View Room
+                        Standard View 
                          </h3> 
                     </div>
                     <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                     </div>
                 </div>
                 <div class="rooms-cards">
                     <img src="./assets/card4.png" alt="card4">
                     <div class="absolute-ellement first-ellement4">
-                       <h3 class="card-title4">
-                        Delux Room
+                       <h3 class="card-title4"> Delux
                          </h3> 
                     </div>
                  <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                  </div>
                 </div>
              </div>
@@ -105,7 +110,7 @@
                          </h3> 
                     </div>
                     <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                     </div>
                 </div>
                 <div class="rooms-cards">
@@ -116,7 +121,7 @@
                          </h3> 
                     </div>
                  <div class="absolute-ellement second-ellement">
-                    <a href="#" class="buttons">Check Rates </a>
+                    <a href="#" class="buttons"> Check Rates </a>
                  </div>
                 </div>
              </div>

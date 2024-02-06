@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+ <?php  require "variables.php"; ?>
 </head>
 <body>
 <!-- header -->
@@ -31,7 +32,22 @@
     <h2 class="second-title">
         Rooms & Rates 
     </h2>
+   
     <div class="news-list">
+    <?php
+    for($i=0; $i< sizeof($card); $i++ ) {
+        echo '  <div class="news-card">
+        <img src="' . $card [$i]['image'] .'" alt="img">
+        <div class="news-card-con">
+            <h3 class="card-title-2"> ' . $card [$i]['title'] .' </h3>
+            <p class="card-title">
+            ' . $card [$i]['body'] .' 
+            </p>
+            <a href="#" class="button2">' . $card [$i]['buttons'] .' </a>
+        </div>
+    </div> ' ;
+    }
+     ?>
         <div class="news-card">
             <img src="./assets/2-1.png" alt="img">
             <div class="news-card-con">
